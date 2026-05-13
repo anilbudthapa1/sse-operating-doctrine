@@ -62,20 +62,7 @@ Use the core workflow before shipping:
 understand -> plan -> implement -> verify -> report
 ```
 
-## SEO Keywords
 
-Claude Code rules, Claude Code prompt, Claude Code workflow, Claude Code CLAUDE.md, AI coding assistant, AI software engineer, senior software engineer prompt, production-grade AI engineering, agentic coding, prompt engineering, code review checklist, secure software development, DevOps checklist, testing checklist, software architecture rules.
-
-## Share This
-
-```text
-I found a Senior Software Engineer operating doctrine for Claude Code:
-https://github.com/anilbudthapa1/sse-operating-doctrine
-
-It turns Claude Code into a more disciplined AI engineering workflow for planning, coding, testing, security, DevOps, and release readiness.
-```
-
-If this helps your Claude Code workflow, star the repo so more builders can find it.
 
 ## Files
 
