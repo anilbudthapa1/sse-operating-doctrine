@@ -116,9 +116,7 @@ sse-operating-doctrine-v1.1.0.zip
 
 The release package includes the doctrine, Claude Code entry point, README, release notes, changelog, security policy, contribution guide, license, and animated SVG asset.
 
-## SEO Keywords
 
-Claude Code rules, Claude Code prompt, Claude Code workflow, Claude Code CLAUDE.md, AI coding assistant, AI software engineer, senior software engineer prompt, production-grade AI engineering, agentic coding, prompt engineering, code review checklist, secure software development, DevOps checklist, testing checklist, software architecture rules, AI developer tools, Claude Code best practices.
 
 ## Share This
 
