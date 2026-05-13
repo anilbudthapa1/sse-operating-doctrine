@@ -1,0 +1,35 @@
+# Local AI/tooling state
+.agents/
+.codex/
+
+# Secrets and local environment
+.env
+.env.*
+!.env.example
+*.pem
+*.key
+*.crt
+*.p12
+
+# Logs
+*.log
+logs/
+
+# OS/editor files
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Build/cache output
+dist/
+build/
+coverage/
+.cache/
+tmp/
+temp/
+__pycache__/
+*.py[cod]
+
