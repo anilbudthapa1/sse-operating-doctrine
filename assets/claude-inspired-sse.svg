@@ -1,0 +1,173 @@
+<svg width="1200" height="360" viewBox="0 0 1200 360" fill="none" xmlns="http://www.w3.org/2000/svg" role="img" aria-labelledby="title desc">
+  <title id="title">SSE Operating Doctrine animated Claude Code inspired logo</title>
+  <desc id="desc">An unofficial animated logo for a senior software engineer operating doctrine.</desc>
+  <style>
+    :root {
+      color-scheme: dark;
+    }
+
+    .bg {
+      fill: #0b1020;
+    }
+
+    .grid {
+      stroke: #24304d;
+      stroke-width: 1;
+      opacity: 0.36;
+    }
+
+    .halo {
+      transform-origin: 206px 180px;
+      animation: spin 10s linear infinite;
+    }
+
+    .halo-slow {
+      transform-origin: 206px 180px;
+      animation: spin 16s linear infinite reverse;
+    }
+
+    .pulse {
+      animation: pulse 2.4s ease-in-out infinite;
+    }
+
+    .scan {
+      animation: scan 4s ease-in-out infinite;
+    }
+
+    .caret {
+      animation: blink 1s steps(2, start) infinite;
+    }
+
+    .title {
+      font: 800 68px/1.1 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+      fill: #f8fafc;
+    }
+
+    .subtitle {
+      font: 500 28px/1.4 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+      fill: #b8c2d8;
+    }
+
+    .tag {
+      font: 700 17px/1 Inter, ui-sans-serif, system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+      letter-spacing: 0;
+      fill: #dbeafe;
+    }
+
+    .code {
+      font: 700 22px/1.2 "SFMono-Regular", Consolas, "Liberation Mono", monospace;
+      fill: #a7f3d0;
+    }
+
+    @keyframes spin {
+      from {
+        transform: rotate(0deg);
+      }
+      to {
+        transform: rotate(360deg);
+      }
+    }
+
+    @keyframes pulse {
+      0%, 100% {
+        opacity: 0.52;
+        transform: scale(0.97);
+      }
+      50% {
+        opacity: 1;
+        transform: scale(1.03);
+      }
+    }
+
+    @keyframes scan {
+      0%, 100% {
+        transform: translateX(0);
+        opacity: 0.2;
+      }
+      45%, 55% {
+        opacity: 0.95;
+      }
+      50% {
+        transform: translateX(415px);
+      }
+    }
+
+    @keyframes blink {
+      0%, 45% {
+        opacity: 1;
+      }
+      46%, 100% {
+        opacity: 0;
+      }
+    }
+  </style>
+
+  <defs>
+    <linearGradient id="bgGradient" x1="0" y1="0" x2="1200" y2="360" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#0b1020"/>
+      <stop offset="0.44" stop-color="#101827"/>
+      <stop offset="1" stop-color="#1f2937"/>
+    </linearGradient>
+    <linearGradient id="ringGradient" x1="90" y1="64" x2="322" y2="296" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#f59e0b"/>
+      <stop offset="0.48" stop-color="#ec4899"/>
+      <stop offset="1" stop-color="#38bdf8"/>
+    </linearGradient>
+    <linearGradient id="accentGradient" x1="0" y1="0" x2="420" y2="0" gradientUnits="userSpaceOnUse">
+      <stop offset="0" stop-color="#22c55e" stop-opacity="0"/>
+      <stop offset="0.5" stop-color="#22c55e"/>
+      <stop offset="1" stop-color="#22c55e" stop-opacity="0"/>
+    </linearGradient>
+    <filter id="glow" x="-40%" y="-40%" width="180%" height="180%">
+      <feGaussianBlur stdDeviation="7" result="blur"/>
+      <feMerge>
+        <feMergeNode in="blur"/>
+        <feMergeNode in="SourceGraphic"/>
+      </feMerge>
+    </filter>
+  </defs>
+
+  <rect class="bg" width="1200" height="360" rx="28" fill="url(#bgGradient)"/>
+  <path class="grid" d="M0 72H1200M0 144H1200M0 216H1200M0 288H1200M120 0V360M240 0V360M360 0V360M480 0V360M600 0V360M720 0V360M840 0V360M960 0V360M1080 0V360"/>
+
+  <g opacity="0.5" filter="url(#glow)">
+    <circle cx="990" cy="82" r="96" fill="#0ea5e9" opacity="0.16"/>
+    <circle cx="1070" cy="282" r="118" fill="#f59e0b" opacity="0.14"/>
+    <circle cx="520" cy="320" r="118" fill="#22c55e" opacity="0.08"/>
+  </g>
+
+  <g transform="translate(34 0)">
+    <circle cx="206" cy="180" r="112" stroke="#334155" stroke-width="2" opacity="0.9"/>
+    <circle class="halo-slow" cx="206" cy="180" r="126" stroke="url(#ringGradient)" stroke-width="6" stroke-linecap="round" stroke-dasharray="84 42 18 54" opacity="0.82"/>
+    <circle class="halo" cx="206" cy="180" r="94" stroke="url(#ringGradient)" stroke-width="7" stroke-linecap="round" stroke-dasharray="36 26 80 22" opacity="0.9"/>
+    <path class="pulse" d="M206 92L282 136V224L206 268L130 224V136L206 92Z" fill="#111827" stroke="#f8fafc" stroke-width="3"/>
+    <path d="M158 158C170 126 242 126 254 158C264 185 246 214 206 234C166 214 148 185 158 158Z" fill="#f59e0b" opacity="0.94"/>
+    <path d="M173 167C181 148 231 148 239 167C246 185 232 203 206 217C180 203 166 185 173 167Z" fill="#111827" opacity="0.9"/>
+    <text x="206" y="188" text-anchor="middle" class="tag">SSE</text>
+    <circle cx="126" cy="92" r="7" fill="#38bdf8"/>
+    <circle cx="300" cy="246" r="7" fill="#22c55e"/>
+    <circle cx="104" cy="238" r="5" fill="#ec4899"/>
+  </g>
+
+  <g transform="translate(414 88)">
+    <text class="title" x="0" y="58">SSE Operating Doctrine</text>
+    <text class="subtitle" x="4" y="108">Claude Code inspired senior engineering workflow</text>
+
+    <rect x="6" y="142" width="508" height="58" rx="14" fill="#020617" stroke="#334155"/>
+    <text class="code" x="28" y="178">&gt; plan.clearly() &amp;&amp; build.carefully()</text>
+    <rect class="caret" x="475" y="157" width="12" height="27" rx="2" fill="#a7f3d0"/>
+
+    <g transform="translate(4 230)">
+      <rect width="112" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+      <rect x="132" width="106" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+      <rect x="258" width="120" height="34" rx="17" fill="#1e293b" stroke="#475569"/>
+      <text class="tag" x="23" y="22">secure</text>
+      <text class="tag" x="157" y="22">test</text>
+      <text class="tag" x="283" y="22">ship</text>
+    </g>
+  </g>
+
+  <rect class="scan" x="420" y="296" width="180" height="3" rx="2" fill="url(#accentGradient)"/>
+</svg>

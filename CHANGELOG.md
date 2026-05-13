@@ -9,7 +9,7 @@ All notable changes to this repository will be documented in this file.
 ### Added
 
 - Initial publish-ready repository structure.
-- README with purpose, usage, recommended GitHub metadata, and topic suggestions.
+- Short, polished README with animated custom logo, download instructions, Claude Code usage flow, SEO keywords, and social sharing copy.
 - Claude Code entry point.
 - Contribution and security guidance.
 - Conservative copyright license file.
