@@ -4,6 +4,19 @@ Author: anilbudthapa
 
 All notable changes to this repository will be documented in this file.
 
+## 1.1.0 - 2026-05-13
+
+### Added
+
+- More polished GitHub README landing page with hero badges, navigation links, usage table, release package instructions, and support section.
+- Buy Me a Coffee support link for the author.
+- Release package guidance for `sse-operating-doctrine-v1.1.0.zip`.
+
+### Changed
+
+- Expanded Claude Code setup instructions with clearer download commands and direct release links.
+- Improved SEO keyword coverage and share-ready copy.
+
 ## 1.0.0 - 2026-05-13
 
 ### Added
